@@ -9,9 +9,20 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.12.1",
+    "@nuxtjs/markdownit": "^1.2.10",
+    "@nuxtjs/sitemap": "^2.4.0",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
-    "nuxt": "^2.14.0"
+    "markdown-it": "^11.0.0",
+    "markdown-it-attrs": "^3.0.3",
+    "markdown-it-div": "^1.1.0",
+    "nuxt": "^2.14.0",
+    "vue-scrollto": "^2.18.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3"
+  }
 }
