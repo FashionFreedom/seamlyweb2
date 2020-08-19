@@ -99,8 +99,6 @@
               >
             </b-nav-form> -->
 
-            <Platforms v-if="false" />
-
             <b-button
               variant="primary"
               class="ml-3"
@@ -117,11 +115,7 @@
 
 <script>
 /* eslint-disable no-console */
-import Platforms from '~/components/Layout/Platforms'
 export default {
-  components: {
-    Platforms
-  },
   methods: {
     applyURL(slug) {
       return `${process.env.applyURL}/${slug}`
