@@ -1,8 +1,8 @@
 <template>
   <div id="home">
     <Hero
-      title="Executive MBAs that Reinvigorate Your Thinking!"
-      introduction="In conjunction with our collaborative partner, The University of Gibraltar."
+      title="SEAMLY 2D Open Source Pattern Design Software"
+      introduction=""
     />
 
     <b-container>

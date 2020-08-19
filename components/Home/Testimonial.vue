@@ -1,16 +1,16 @@
 <template>
   <b-card
-    :img-src="imageCDN('~/content/learna/images/quotes-v7.png')"
     overlay
     img-alt="Image"
     img-top
     tag="article"
-    class="mb-2 min-w-360 text-center shadow-sm"
+    style="height: 25rem;"
+    class="mb-2 min-w-360 text-center shadow-sm bg-warning text-light"
     ><div class="card-body">
       <img
         v-lazy-load
         :src="loadingImage"
-        :data-src="imageCDN(image)"
+        data-src="https://picsum.photos/600/300/?image=25"
         class="card-img-top customer-image border border-light"
       />
     </div>

@@ -3,7 +3,7 @@
     <b-container>
       <h2 class="text-center text-muted mb-5">Our Partners</h2>
       <p>
-        Learna programmes are authored and delivered in collaboration with
+        Our programmes are delivered in collaboration with
         internationally recognised educational leaders. We are exceptionally
         proud of the work that we do with our partners, they help us ensure that
         each programme is delivered to a high standard and that students have
@@ -12,30 +12,13 @@
       <hr class="divider my-4 mt-5" />
       <b-row>
         <b-col class="text-center logo-partner">
-          <img
-            v-lazy-load
-            :src="loadingImage"
-            :data-src="imageCDN('~/content/diploma-msc/trinity.png', 300)"
-            width="300"
-          />
+          <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=54" width="300"></b-img>
         </b-col>
         <b-col class="text-center logo-partner">
-          <img
-            v-lazy-load
-            :src="loadingImage"
-            :data-src="
-              imageCDN('~/content/diploma-msc/logos/gib-logo-small-v1.png')
-            "
-            class="mt-3"
-          />
+          <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=54" width="300"></b-img>
         </b-col>
         <b-col class="text-center">
-          <img
-            v-lazy-load
-            :src="loadingImage"
-            :data-src="imageCDN('~/content/diploma-msc/logo-partner-usw.png')"
-            width="300"
-          />
+          <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=54" width="300"></b-img>
         </b-col>
       </b-row>
     </b-container>

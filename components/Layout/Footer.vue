@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div id="footer-left" class="col-md-6">
-          <h5 class="mb-3">Navigation</h5>
+          <h5 class="mb-3">Seamly Creative Design Software</h5>
           <ul class="list-unstyled list-inline">
             <li>
               <nuxt-link

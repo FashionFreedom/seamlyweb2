@@ -13,10 +13,10 @@
               </p>
               <a
                 v-scroll-to="{ el: '#courses', offset: -80 }"
-                href="#courses"
+                href="https://seamly.net/"
                 class="btn btn-danger btn-lg mt-3"
               >
-                View Programmes
+                Go Seamly 2D
               </a>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default {
   },
   computed: {
     backgroundImage() {
-      return util.imageCDN(`~/content/learna/heroes/home-hands-v1.jpg`)
+      return util.imageCDN(`https://picsum.photos/900/250/?image=3`)
     }
   }
 }

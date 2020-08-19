@@ -1,7 +1,7 @@
 <template>
   <section class="page-section pt-5 pb-5" style="background: #2464b0 !important;">
     <b-container class="container text-white">
-      <h2 class="text-center mb-5">Why Learna?</h2>
+      <h2 class="text-center mb-5">Why SEAMLY2D ?</h2>
       <p>
         Whether you want to feel confident in asking for a payrise/promotion,
         communicate more efficiently with your team, access a knowledgable
