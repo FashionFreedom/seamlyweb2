@@ -1,73 +1,65 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        seamlyweb2
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div id="home">
+    <Hero
+      title="Executive MBAs that Reinvigorate Your Thinking!"
+      introduction="In conjunction with our collaborative partner, The University of Gibraltar."
+    />
+
+    <b-container>
+      <b-row>
+        <b-col><Courses /></b-col>
+      </b-row>
+      <b-row>
+        <b-col><Partners /></b-col>
+      </b-row>
+    </b-container>
+
+    <WhyUs />
+
+    <b-container>
+      <b-row>
+        <b-col><Testimonials /></b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-export default {}
+import Hero from '~/components/Home/Hero.vue'
+import Courses from '~/components/Home/Courses.vue'
+import Partners from '~/components/Home/Partners.vue'
+import WhyUs from '~/components/Home/WhyUs.vue'
+import Testimonials from '~/components/Home/Testimonials.vue'
+
+export default {
+  scrollToTop: true,
+  components: {
+    Hero,
+    Courses,
+    Partners,
+    WhyUs,
+    Testimonials
+  },
+  computed: {
+    minHeight() {
+      const height = this.$vuetify.breakpoint.mdAndUp ? '100vh' : '50vh'
+      return `calc(${height} - ${this.$vuetify.application.top}px)`
+    }
+  },
+  head() {
+    return {
+      title: 'learna.ac.uk',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Home page'
+        }
+      ]
+    }
+  }
+}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+<style lang="scss" scoped>
 </style>

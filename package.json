@@ -18,6 +18,7 @@
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-div": "^1.1.0",
     "nuxt": "^2.14.0",
+    "nuxt-lazy-load": "^1.2.4",
     "vue-scrollto": "^2.18.2"
   },
   "devDependencies": {

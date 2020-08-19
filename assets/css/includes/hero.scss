@@ -1,0 +1,43 @@
+#hero {
+  width: 100%;
+
+  background-color: #153a59;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: #fff;
+  padding-top: 50px;
+
+  h1 {
+    font-size: 5rem;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .caption {
+    margin-bottom: 5rem;
+  }
+  #hero {
+    padding-top: 40px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center !important;
+    font-size: 2.5rem !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .caption {
+    margin-bottom: 5rem;
+  }
+  #hero {
+    padding-top: 90px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center !important;
+    font-size: 2.5rem !important;
+  }
+}

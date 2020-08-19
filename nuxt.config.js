@@ -52,7 +52,18 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    'vue-scrollto/nuxt',
+    ['vue-scrollto/nuxt', { duration: 300, container: 'body' }],
+    [
+      'nuxt-lazy-load',
+      {
+        directiveOnly: true
+      }
+    ]
   ],
+  bootstrapVue: {
+    icons: true
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
