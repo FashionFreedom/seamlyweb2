@@ -11,7 +11,7 @@ export default {
   */
   target: 'static',
   router: {
-    base: 'seamlyweb2'
+    base: '/seamlyweb2/'
   },
   /*
   ** Headers of the page
