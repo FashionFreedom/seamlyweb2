@@ -9,7 +9,7 @@
             <li>
               <nuxt-link
                 :to="{ name: 'about' }"
-                title="About Learna"
+                title="About Seamly2D"
                 no-prefetch
               >
                 About Us

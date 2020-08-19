@@ -48,7 +48,7 @@ export default {
   },
   head() {
     return {
-      title: 'learna.ac.uk',
+      title: 'Seamly2D',
       meta: [
         {
           hid: 'description',

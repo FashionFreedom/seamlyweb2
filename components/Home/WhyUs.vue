@@ -29,7 +29,7 @@
           </svg>
           <h4 class="mb-2">Affordable Education for All</h4>
           <p class="mb-0">
-            Value is a core principle at Learna, which is why we have developed
+            Value is a core principle at SEAMLY2D, which is why we have developed
             programmes with affordability in mind. We do not discriminate based
             on country of origin, so there is no international surcharge for our
             courses.
